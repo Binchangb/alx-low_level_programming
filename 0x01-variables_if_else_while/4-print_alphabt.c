@@ -13,7 +13,6 @@ int main(void)
 		(c <= 'z') {
 			if (c == 'q' || c == 'e')
 				c++;
-				putchar(c);
 			putchar(c);
 			c++;
 		}
