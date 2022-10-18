@@ -1,25 +1,20 @@
-#include "main.h"
-
+#include"main.h"
 /**
- * main - Entry point
+ * _putchar - writes the character c to stdout
+ * @c: The charater to print
  *
- * Return: Always 0 (Success)
- *
+ * Return: On success 1.
+ * On error, -1 is returned, and error is set appropriately.
  */
 
 int main(void)
-
 {
-	_putchar('_');
+	char str[] = "_putchar";
+	int ch;
 
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
 	_putchar('\n');
-return (0);
 
+						return (0);
 }
